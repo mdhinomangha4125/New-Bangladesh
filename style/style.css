@@ -105,7 +105,7 @@ h1{
 }
 
 .banner-img{
-    background-image: url(/assets/hero.png);
+    background-image: url(../assets/hero.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -154,7 +154,7 @@ h2{
 }
 
 .pillerimg{
-    background-image: url(/extraimg/governance.png);
+    background-image: url(../extraimg/governance.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -345,7 +345,7 @@ li{
 }
 
 .newsimg{
-    background: url(/assets/satelite.png);
+    background: url(../assets/satelite.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -363,7 +363,7 @@ li{
 }
 
 .newspimg{
-    background: url(/assets/al-jazeera.png) no-repeat center/cover ;
+    background: url(../assets/satelite.png) no-repeat center/cover ;
     height: 40px;
     width: 134px;
 }
@@ -520,7 +520,7 @@ input::placeholder{
 }
 
 .socioicon{
-    background: url(/assets/facebook.png) no-repeat center/cover ;
+    background: url(../assets/facebook.png) no-repeat center/cover ;
     height: 24px;
     width: 24px;
 }
