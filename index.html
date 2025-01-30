@@ -4,10 +4,211 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>New Bangladesh</title>
+    <link rel="stylesheet" href="/style/style.css">
+    <style>
+        body{
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #f5f5f5;
+        }
+    </style>
 </head>
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+        <nav>
+            <h3 class="bd2">Bangladesh 2.0</h3>
+            <li style="list-style: none;"><button class="signinbtn">Sign In</button></li>
+        </nav>
+        <div class="banner">
+            <div class="banner-t">
+                <p class="un24pxt">Bangladesh 2.0</p>
+                <h1>Idea, innovation,<br>
+                vision and challenges in<br>New Bangladesh.</h1>
+                <button class="unbtn"><a href="https://www.google.com">Explore New Bangladesh</a></button>
+            </div>
+            <div class="banner-img"></div>
+        </div>
+    </header>
+    <main>
+        <section id="pillars" class="seccomsty">
+            <h2>Pillars of "Bangladesh 2.0"</h2>
+            <div class="Pil4box">
+                <div class="plillername">
+                    <div class="pillerimg"></div>
+                    <p class="pillertt">Governance</p>
+                    <p class="pillertdes">Governance ensures stability through laws, leadership, and institutions, promoting justice, accountability, and public welfare for a nation's progress.
+                    </p>
+                </div>
+                <div class="plillername">
+                    <div class="pillerimg" style="background-image: url(/extraimg/economy.png);"></div>
+                    <p class="pillertt">Economy</p>
+                    <p class="pillertdes">The economy drives growth through trade, industries, and employment, ensuring financial stability, resource management, and improved living standards for citizens. 
+                    </p>
+                </div>
+                <div class="plillername">
+                    <div class="pillerimg" style="background-image: url(/extraimg/education.png);"></div>
+                    <p class="pillertt">Education</p>
+                    <p class="pillertdes">Education empowers individuals with knowledge, skills, and critical thinking, fostering innovation, social progress, and economic development for a nation's future.
+                    </p>
+                </div>
+                <div class="plillername">
+                    <div class="pillerimg" style="background-image: url(/extraimg/unity.png);"></div>
+                    <p class="pillertt">Unity</p>
+                    <p class="pillertdes">Unity strengthens a nation by fostering peace, cooperation, and inclusivity, ensuring social harmony, national identity, and collective progress for a better future.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section id="version" class="seccomsty">
+            <h2>The Vision of Future</h2>
+            <p class="ver1stp">Bangladesh 2.0 seeks to reshape the nation's future by adopting advanced technology, fostering inclusive growth, and prioritizing sustainability. Through initiatives in renewable energy, digital transformation, and modern infrastructure, the country aims to establish itself as a global benchmark for development and innovation.</p>
+            <div class="ver1stdiv Pil4box">
+                <div class="ver1stdiv1stdiv">
+                    <div class="pillerimg" style="background-image: url(/extraimg/digital-transformation.png);"></div>
+                    <p class="pillertt">Digital Transformation</p>
+                    <p class="pillertdes">Establishing a nationwide digital ecosystem improves connectivity, enhances service accessibility, drives innovation, bridges digital divides, and empowers citizens for inclusive growth.</p>
+                    <li><button class="unbtn disinline" style="background-color: rgb(84, 143, 245);"><a href="https://www.google.com">Learn More</a></button></li>
+                </div>
+                <div class="ver1stdiv1stdiv" style="background-color: rgba(9, 161, 93, 0.2);">
+                    <div class="pillerimg" style="background-image: url(/extraimg/green-energy.png);"></div>
+                    <p class="pillertt">Green Energy</p>
+                    <p class="pillertdes">Investing in solar and wind energy reduces reliance on fossil fuels, lowers carbon emissions, promotes sustainability, and ensures a cleaner, greener future.</p>
+                    <li><button class="unbtn disinline" style="background-color: rgba(9, 161, 93);"><a href="https://www.google.com">Learn More</a></button></li>
+                </div>
+                <div class="ver1stdiv1stdiv" style="background-color: rgba(255, 196, 57, 0.2);">
+                    <div class="pillerimg" style="background-image: url(/extraimg/modern-house.png);"></div>
+                    <p class="pillertt">Modern Infrastructure</p>
+                    <p class="pillertdes">Developing state-of-the-art infrastructure enhances connectivity, boosts productivity, attracts investments, and strengthens a nation's economy for global competitiveness and sustainable growth.</p>
+                    <li><button class="unbtn disinline" style="background-color: rgba(255, 196, 57);"><a href="https://www.google.com">Learn More</a></button></li>
+                </div>
+            </div>
+            <div class="qoutation">
+                <img src="/assets/quote-bg.png" alt="qoutemark" height="64" width="64">
+                <div class="qoutetext">
+                    <p style="color: rgba(14, 14, 14, 0.8);">"Dear citizens, Bangladesh stands at the dawn of a new era—one of innovation, inclusivity, and sustainability. Our commitment to digital transformation, green energy, and modern infrastructure will shape a prosperous future for all. Together, we will create opportunities, empower communities, and build an economy rooted in social justice. Let us unite, embrace change, and ensure that Bangladesh becomes a global model of progress and equity. The future is in our hands!"</p>
+                    <p class="dryunus">Dr. Muhammad Yunus</p>
+                    <p style="color: rgba(14, 14, 14, 0.6);">Chief Adviser of the People's Republic of Bangladesh</p>
+                </div>
+            </div>
+        </section>
+        <section id="opinion">
+            <h2 style="margin-bottom: 24px;">Your Opinion Matters</h2>
+            <div class="tabcon">
+                <div class="tabhead">
+                    <p class="tabhp">Questions</p>
+                    <p class="tabhp">Select Your Opinion</p>
+                </div>
+                <div class="qadata">
+                    <div class="question"><p class="qtext">Do you believe Bangladesh is on the right path toward becoming a developed nation?</p></div>
+                    <div class="answer">
+                        <li>
+                            <button class="qabtn">
+                                <select name="answer" id="anssel">
+                                    <option value="yes" class="anst">Yes, I agree</option>
+                                    <option value="no" class="anst">No, I don't</option>
+                                    <option value="uncertain" class="anst">I'm unsure</option>
+                                </select>
+                                <div class="downaro"></div>
+                            </button>
+                        </li>
+                    </div>
+                </div>
+                <div class="qadata">
+                    <div class="question"><p class="qtext">Is Bangladesh’s environmental policy aligned with its economic goals for sustainable growth?</p></div>
+                    <div class="answer">
+                        <li>
+                            <button class="qabtn">
+                                <select name="answer" id="anssel">
+                                    <option value="yes" class="anst">Yes, I agree</option>
+                                    <option value="no" class="anst">No, I don't</option>
+                                    <option value="uncertain" class="anst">I'm unsure</option>
+                                </select>
+                                <div class="downaro"></div>
+                            </button>
+                        </li>
+                    </div>
+                </div>
+                <div class="qadata">
+                    <div class="question"><p class="qtext">Is the digital transformation in Bangladesh enough to compete globally?</p></div>
+                    <div class="answer">
+                        <li>
+                            <button class="qabtn">
+                                <select name="answer" id="anssel">
+                                    <option value="yes" class="anst">Yes, I agree</option>
+                                    <option value="no" class="anst">No, I don't</option>
+                                    <option value="uncertain" class="anst">I'm unsure</option>
+                                </select>
+                                <div class="downaro"></div>
+                            </button>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="renews">
+            <h2>Recent News</h2>
+            <p class="ver1stp">Bangladesh 2.0 aims to redefine the nation’s trajectory by embracing cutting-edge technology, promoting inclusive growth, and ensuring sustainability. With initiatives in renewable energy, digital transformation, and robust infrastructure, the country is set to become a global model of development.</p>
+            <div class="newscontainer">
+                <div class="newsimg"></div>
+                <div class="newstcon">
+                <h3 class="bd2" style="opacity: 0.80;">Bangladesh Launches New Satellite</h3>
+                <div class="newspimg"></div>
+                <p class="newsptime">Date: <time datetime="2025-05-01">05/01/2025</time><time class="timec" datetime="2025-05-01T22:25">Time: 10:25 PM</time></p>
+                <p style="color: rgba(14, 14, 14, 0.7);">Bangladesh has launched a new satellite, enhancing its communication and technological capabilities. This marks a significant step in the country’s space advancements, improving telecommunications, weather monitoring, and disaster management. The satellite is expected to boost digital connectivity, benefiting businesses, government services, and remote areas......</p>
+                <li style="margin-top: 20px;">
+                    <button class="unbtn"><a href="https://www.google.com">Read More</a></button>
+                </li>
+                </div>
+            </div>
+            <div class="newscontainer">
+                <div class="newstcon">
+                <h3 class="bd2" style="opacity: 0.80;">Bangladesh Launches New Satellite</h3>
+                <div class="newspimg"></div>
+                <p class="newsptime">Date: <time datetime="2025-05-01">05/01/2025</time><time class="timec" datetime="2025-05-01T22:25">Time: 10:25 PM</time></p>
+                <p style="color: rgba(14, 14, 14, 0.7);">Bangladesh has launched a new satellite, enhancing its communication and technological capabilities. This marks a significant step in the country’s space advancements, improving telecommunications, weather monitoring, and disaster management. The satellite is expected to boost digital connectivity, benefiting businesses, government services, and remote areas......</p>
+                <li style="margin-top: 20px;">
+                    <button class="unbtn"><a href="https://www.google.com">Read More</a></button>
+                </li>
+                </div>
+                <div class="newsimg"></div>
+            </div>
+        </section>
+        <section id="donate">
+            <h2>Donate Today</h2>
+            <p class="don1stp">Donate to build a reformed Bangladesh—support education, healthcare, and infrastructure. Your contribution empowers communities, drives progress, and creates a brighter future for all. Be a part of the change today!</p>
+            <div class="donatetkparent">
+                <p class="donatetpa">100 Taka</p>
+                <p class="donatetpa">200 Taka</p>
+                <p class="donatetpa">500 Taka</p>
+                <p class="donatetpa">1000 Taka</p>
+            </div>
+            <input type="text" class="othertk" placeholder="Other Amount (Taka)">
+            <li>
+                <button class="unbtn">Done Now</button>
+            </li>
+        </section>
+        <section id="subscibe">
+            <h2 style="margin-top: 80px;">Subscribe Newsletter</h2>
+            <p style="color: rgba(14, 14, 14, 0.7); text-align: center; width: 680px; ">Stay informed and help rebuild our country. Reach out to us at nnb2024@gmail.com and be part of the change!</p>
+            <div class="inpsubmail">
+                <input type="email" name="emailnp" id="mail" placeholder="Enter your email here">
+                <button class="subbtn">Subscribe</button>
+            </div>
+            <p style="color: rgba(14, 14, 14, 0.7); text-align: center; margin-bottom: 80px;">We promise not to spam you!</p>
+        </section>
+    </main>
+    <footer id="footer">
+        <div class="footercon">
+            <p class="bd2 bd2pb">Bangladesh 2.0</p>
+            <div class="socialicond">
+                <div class="socioicon"></div>
+                <div class="socioicon" style="background-image: url(/assets/instagram.png);"></div>
+                <div class="socioicon" style="background-image: url(/assets/x.png);"></div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
